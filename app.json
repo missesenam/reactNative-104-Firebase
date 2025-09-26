@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "reactNative-104-Firebase",
     "name": "reactNative-104-Firebase",
     "slug": "reactNative-104-Firebase",
     "version": "1.0.0",
@@ -24,6 +25,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router"]
   }
 }

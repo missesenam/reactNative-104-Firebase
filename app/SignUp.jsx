@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-// import { auth } from "../firebaseConfig";
 
-const index = () => {
+const SignUp = () => {
   return (
     <View>
-      <Text>index</Text>
+      <Text>SignUp</Text>
     </View>
   );
 };
 
-export default index;
+export default SignUp;
 
 const styles = StyleSheet.create({});

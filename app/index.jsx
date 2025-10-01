@@ -25,7 +25,7 @@ const index = () => {
     }
     try {
       const user = await signInWithEmailAndPassword(auth, email, password);
-      if (user) router.replace("/(tabs)/About");
+      if (user) router.replace("/About");
     } catch (error) {
       console.log(error);
       alert("sign in failed:" + error.message);
@@ -39,7 +39,7 @@ const index = () => {
     }
     try {
       const user = await createUserWithEmailAndPassword(auth, email, password);
-      if (user) router.replace("/(tabs)/About");
+      if (user) router.replace("/About");
     } catch (error) {
       console.log(error);
       alert("sign in failed:" + error.message);
